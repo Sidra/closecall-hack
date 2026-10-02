@@ -4,8 +4,6 @@
 
 > For a city traffic engineer (or the consultancy running a safety study) who can't prove an intersection is dangerous until someone is hurt, CloseCall creates a reviewed near-miss ledger with clips and a fix memo, so they can make the case for a redesign before the crash.
 
-**Public repo:** https://github.com/Sidra/closecall-hack
-
 ## Services / ports
 
 | Service | Port | Notes |
@@ -59,14 +57,8 @@ Stage 1 alone (report every PET flag): 9% precision. Caveats: only 4 labelled ne
 | **Ultralytics YOLO** | YOLO26 detection + tracking: the cheap first stage | `pipeline/track.py` |
 | **Cursor (SpaceXAI)** | Build tool: Cursor's agent (model Grok 4.7, SpaceXAI) built the council-packet CSV export (`web/lib/councilPacket.ts`), reviewed and hardened afterwards. Not in the runtime path | `web/lib/councilPacket.ts` |
 
-## Honesty notes
-- **Footage is public CC BY-SA 4.0 video from Wikimedia Commons**, not a live city camera. Credits: Pie-IX / Sherbrooke, Montréal (Thomas1313); Respubliki / Profsoyuznaya and Respubliki / Vodoprovodnaya, Tyumen (RG72); an intersection in Chiang Mai (Amada44). The anonymised derived clips in `web/public/clips` are shared under the same licence.
-- **Storage is a stand-in** unless the UI shows a green "Stored on VAST Data" chip.
-- **PET is approximate:** measured in screen pixels without a ground-plane calibration. That is why stage 2 exists.
-- **The eval is small and single-labeller** (the builder, blind to verdicts). See `/evals` for every miss and false flag.
-- **Human review:** a `/review` page lets a traffic engineer confirm flags blind; not yet used on this set (no human verdicts exist, and none are shown).
-- **Model output is a flag, not a verdict:** nothing is filed until a engineer reviews it; the memo cites only AI-labelled near-miss clips.
-- **No identification:** redaction is geometric and applies to every detection; identity questions are refused in search.
+## Footage
+Public CC BY-SA 4.0 video from Wikimedia Commons: Pie-IX / Sherbrooke, Montréal (Thomas1313); Respubliki / Profsoyuznaya and Respubliki / Vodoprovodnaya, Tyumen (RG72); an intersection in Chiang Mai (Amada44). The anonymised derived clips in `web/public/clips` are shared under the same licence.
 
 ## Repo map
 `pipeline/` Python stages · `eval/` pre-registration + labels · `web/` Next.js app.
