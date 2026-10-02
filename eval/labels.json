@@ -1,0 +1,260 @@
+{
+ "labeller": "Claude Code (builder), blind to verifier verdicts, from 3 anonymised keyframes per event",
+ "labels": {
+  "pieix-1066-410": {
+   "idx": 0,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "pieix-2-252": {
+   "idx": 1,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "pieix-172-706": {
+   "idx": 2,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "pieix-252-310": {
+   "idx": 3,
+   "label": "unsure",
+   "note": "far field, too small to judge"
+  },
+  "pieix-958-1066": {
+   "idx": 4,
+   "label": "unsure",
+   "note": "cyclist passes pedestrian at crosswalk edge; unclear if on roadway"
+  },
+  "pieix-4-269": {
+   "idx": 5,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "pieix-776-706": {
+   "idx": 6,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-5-177": {
+   "idx": 7,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-310-157": {
+   "idx": 8,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-397-437": {
+   "idx": 9,
+   "label": "near_miss",
+   "note": "car turns through crosswalk; pedestrian steps onto the spot 0.13 s later"
+  },
+  "tyumen-prof-486-407": {
+   "idx": 10,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-548-647": {
+   "idx": 11,
+   "label": "unsure",
+   "note": "dense turning traffic, depth unclear"
+  },
+  "tyumen-prof-983-1143": {
+   "idx": 12,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-9-188": {
+   "idx": 13,
+   "label": "near_miss",
+   "note": "car passes the pedestrian's curb-edge position 0.2 s after"
+  },
+  "tyumen-prof-14-177": {
+   "idx": 14,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-407-732": {
+   "idx": 15,
+   "label": "unsure",
+   "note": "crossing cars mid-intersection, depth unclear"
+  },
+  "tyumen-prof-971-772": {
+   "idx": 16,
+   "label": "unsure",
+   "note": "crossing cars, depth unclear"
+  },
+  "tyumen-prof-2-3": {
+   "idx": 17,
+   "label": "unsure",
+   "note": "SUV crosses ambulance front, depth unclear"
+  },
+  "tyumen-prof-188-248": {
+   "idx": 18,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-559-470": {
+   "idx": 19,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-470-678": {
+   "idx": 20,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-30-188": {
+   "idx": 21,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-437-567": {
+   "idx": 22,
+   "label": "near_miss",
+   "note": "turning car crosses the crosswalk 0.6 s after the pedestrian"
+  },
+  "tyumen-prof-537-648": {
+   "idx": 23,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-17-10": {
+   "idx": 24,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-875-1174": {
+   "idx": 25,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-65-136": {
+   "idx": 26,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-157-400": {
+   "idx": 27,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-326-548": {
+   "idx": 28,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-654-786": {
+   "idx": 29,
+   "label": "unsure",
+   "note": "pedestrian at far curb, unclear if in road"
+  },
+  "tyumen-prof-737-840": {
+   "idx": 30,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-873-1060": {
+   "idx": 31,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-383-344": {
+   "idx": 32,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-971-909": {
+   "idx": 33,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-9-298": {
+   "idx": 34,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-407-717": {
+   "idx": 35,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-717-941": {
+   "idx": 36,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-272-407": {
+   "idx": 37,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-647-971": {
+   "idx": 38,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-prof-1044-1202": {
+   "idx": 39,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "tyumen-vodo-3-38": {
+   "idx": 40,
+   "label": "near_miss",
+   "note": "pedestrian enters the crossing 0.87 s after the car passes"
+  },
+  "tyumen-vodo-3-36": {
+   "idx": 41,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "chiangmai-2-123": {
+   "idx": 42,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "chiangmai-58-123": {
+   "idx": 43,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "chiangmai-453-472": {
+   "idx": 44,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "chiangmai-219-352": {
+   "idx": 45,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "chiangmai-254-270": {
+   "idx": 46,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "chiangmai-115-176": {
+   "idx": 47,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "chiangmai-6-337": {
+   "idx": 48,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "chiangmai-123-375": {
+   "idx": 49,
+   "label": "not_near_miss",
+   "note": ""
+  },
+  "chiangmai-145-176": {
+   "idx": 50,
+   "label": "not_near_miss",
+   "note": ""
+  }
+ }
+}

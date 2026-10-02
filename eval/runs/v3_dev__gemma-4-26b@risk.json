@@ -1,0 +1,184 @@
+{
+ "chiangmai-115-176": {
+  "risk": 1,
+  "evidence": "The visual overlap occurs due to perspective depth, as the motorcycles are separated by a significant distance along the road axis.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "chiangmai-453-472": {
+  "risk": 1,
+  "evidence": "The visual overlap occurs because the car is significantly further away in the background while the truck is in the foreground.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.0
+ },
+ "chiangmai-145-176": {
+  "risk": 0,
+  "evidence": "The motorcycle B is traveling in the opposite direction and is far behind the location where person A was previously positioned.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.2
+ },
+ "chiangmai-254-270": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the motorcycle B passing through the red circle well after the pedestrian A has already cleared the area, with no spatial overlap occurring on the ground.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "pieix-2-252": {
+  "risk": 1,
+  "evidence": "The bus and car are traveling in different directions and are separated by significant physical distance on the ground despite their visual overlap on screen.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 0.9
+ },
+ "pieix-252-310": {
+  "risk": 1,
+  "evidence": "The vehicles are separated by a significant temporal gap and appear to be at different depths in the scene, making a physical collision highly unlikely.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.0
+ },
+ "chiangmai-58-123": {
+  "risk": 1,
+  "evidence": "The trajectories show the vehicles are traveling in parallel lanes with significant lateral separation on the ground.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.8
+ },
+ "tyumen-prof-30-188": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the vehicles are in different lanes and separated by significant lateral distance on the ground.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.4
+ },
+ "tyumen-prof-17-10": {
+  "risk": 1,
+  "evidence": "The visual overlap occurs due to perspective, as the vehicles are traveling in different lanes and maintain significant lateral separation on the ground.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.5
+ },
+ "tyumen-prof-157-400": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the vehicles are at significantly different depths in the scene, with car A passing well ahead of car B's path.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.5
+ },
+ "tyumen-prof-407-717": {
+  "risk": 1,
+  "evidence": "The vehicles are separated by a significant distance in the roadway and their paths do not intersect at the same time.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.3
+ },
+ "tyumen-prof-397-437": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the pedestrian and the car are at significantly different depths in the scene, with the pedestrian remaining on the sidewalk while the car passes in the roadway.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.3
+ },
+ "pieix-4-269": {
+  "risk": 0,
+  "evidence": "The car and the person are separated by a significant time gap of 2.8 seconds and are located at different depths in the scene.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.9
+ },
+ "tyumen-prof-65-136": {
+  "risk": 1,
+  "evidence": "The visual overlap occurs due to perspective projection, as the vehicles are traveling in different lanes or paths at significantly different depths from the camera.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.3
+ },
+ "tyumen-prof-486-407": {
+  "risk": 1,
+  "evidence": "The visual overlap occurs due to perspective depth, as car A is significantly further from the camera than car B.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.6
+ },
+ "tyumen-prof-407-732": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the vehicles are in different lanes and separated by significant lateral distance on the ground despite their overlapping screen positions.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.9
+ },
+ "tyumen-prof-470-678": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the vehicles are in different lanes and at significantly different depths in the scene, meaning they do not occupy the same physical space.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.8
+ },
+ "tyumen-prof-5-177": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the vehicles are in different lanes and separated by significant lateral distance on the ground despite their overlapping paths on the 2D screen.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.7
+ },
+ "tyumen-prof-548-647": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the vehicles are at significantly different depths in the scene, with car A being much closer to the camera than car B.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.6
+ },
+ "tyumen-prof-737-840": {
+  "risk": 1,
+  "evidence": "The visual overlap occurs due to perspective depth, as the truck is significantly further away from the camera than the car's path.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.0
+ },
+ "tyumen-prof-873-1060": {
+  "risk": 1,
+  "evidence": "The car B is traveling in a lane significantly further from the pedestrian A's path, and they do not occupy the same physical space on the ground.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.0
+ },
+ "tyumen-prof-971-772": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the vehicles are in different lanes and separated by significant lateral distance on the ground.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 0.8
+ },
+ "tyumen-prof-875-1174": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the vehicles are at significantly different depths in the scene, with the car passing well ahead of the truck's path.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "tyumen-prof-9-188": {
+  "risk": 1,
+  "evidence": "The visual evidence shows the person and the car are at significantly different depths in the scene, meaning they were not in the same physical space.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "tyumen-prof-9-298": {
+  "risk": 1,
+  "evidence": "The temporal gap of 2.33 seconds and the visual evidence suggest the car and pedestrian were at different depths in the scene and did not occupy the same space at the same time.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 1.2
+ },
+ "tyumen-vodo-3-36": {
+  "risk": 1,
+  "evidence": "The vehicles are separated by a significant distance in the roadway and their paths do not intersect at the same time.",
+  "model": "google/gemma-4-26B-A4B-it",
+  "ok": true,
+  "latency_s": 0.8
+ }
+}

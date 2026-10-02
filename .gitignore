@@ -1,0 +1,17 @@
+.env*
+node_modules/
+__pycache__/
+.next/
+dist/
+.venv/
+*.backup
+.DS_Store
+data/raw/
+data/work/
+*.pt
+!.env.example
+docs/
+share/
+DOSSIER.md
+video/
+eval/human_review.json

@@ -1,0 +1,214 @@
+{
+ "pieix-2-252": {
+  "a_on_road": true,
+  "b_on_road": true,
+  "same_depth": false,
+  "paths_cross": true,
+  "close": false,
+  "evasive": false,
+  "evidence": "The bus travels left to right across the intersection, passing the red circle before the car arrives at the same point. They are at different distances from the camera.",
+  "conflict_type": "crossing_path",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": true,
+  "latency_s": 219.7
+ },
+ "chiangmai-58-123": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 260.0
+ },
+ "tyumen-prof-397-437": {
+  "a_on_road": true,
+  "b_on_road": true,
+  "same_depth": true,
+  "paths_cross": true,
+  "close": true,
+  "evasive": true,
+  "evidence": "Car A is positioned near the red circle and person B is standing/walking nearby, indicating they are close and their paths intersect at the crossing point.",
+  "conflict_type": "turn_vs_pedestrian",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": true,
+  "latency_s": 283.1
+ },
+ "pieix-252-310": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "HTTP 503: b'{\"error\":{\"message\":\"ResourceExhausted: Worker local total request limit reached (16/16)\",\"type\":\"Service Unavailable\",\"'",
+  "latency_s": 321.5
+ },
+ "tyumen-prof-407-717": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 175.4
+ },
+ "tyumen-prof-407-732": {
+  "a_on_road": true,
+  "b_on_road": true,
+  "same_depth": false,
+  "paths_cross": true,
+  "close": false,
+  "evasive": false,
+  "evidence": "Car A (amber) passes the red circle at t-0.3s while Car B (cyan) arrives at the red circle at t+0.1s, indicating they are at different depths and not close to each other.",
+  "conflict_type": "right_turn_vs_crossing",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": true,
+  "latency_s": 142.2
+ },
+ "pieix-4-269": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 462.8
+ },
+ "chiangmai-254-270": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 466.3
+ },
+ "chiangmai-453-472": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 466.5
+ },
+ "tyumen-prof-157-400": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 468.7
+ },
+ "tyumen-prof-30-188": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "HTTP 503: b'{\"error\":{\"message\":\"ResourceExhausted: Worker local total request limit reached (16/16)\",\"type\":\"Service Unavailable\",\"'",
+  "latency_s": 472.2
+ },
+ "tyumen-prof-17-10": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 509.3
+ },
+ "tyumen-prof-65-136": {
+  "a_on_road": true,
+  "b_on_road": true,
+  "same_depth": false,
+  "paths_cross": true,
+  "close": true,
+  "evasive": false,
+  "evidence": "The truck passes the intersection point (red circle) before the car arrives and they pass each other closely near the red circle marker.",
+  "conflict_type": "crossing_path",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": true,
+  "latency_s": 130.3
+ },
+ "tyumen-prof-470-678": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 315.5
+ },
+ "chiangmai-115-176": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 610.4
+ },
+ "chiangmai-145-176": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 610.4
+ },
+ "tyumen-prof-9-188": {
+  "a_on_road": true,
+  "b_on_road": true,
+  "same_depth": false,
+  "paths_cross": true,
+  "close": true,
+  "evasive": false,
+  "evidence": "A crosses the road in front of car B. They are close at the crossing point but do not appear to brake or swerve.",
+  "conflict_type": "crossing_path",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": true,
+  "latency_s": 220.2
+ },
+ "tyumen-prof-548-647": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 319.6
+ },
+ "tyumen-prof-486-407": {
+  "a_on_road": true,
+  "b_on_road": true,
+  "same_depth": true,
+  "paths_cross": true,
+  "close": true,
+  "evasive": false,
+  "evidence": "A and B are on the roadway; their paths cross at the red circle; they are within one car length at t+0.5s; no abrupt evasive maneuvers observed",
+  "conflict_type": "left_turn_vs_through",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": true,
+  "latency_s": 425.8
+ },
+ "tyumen-prof-5-177": {
+  "a_on_road": true,
+  "b_on_road": true,
+  "same_depth": true,
+  "paths_cross": true,
+  "close": false,
+  "evasive": false,
+  "evidence": "White car turns right and passes the intersection point before the blue car arrives at the same spot.",
+  "conflict_type": "right_turn_vs_crossing",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": true,
+  "latency_s": 377.3
+ },
+ "tyumen-prof-873-1060": {
+  "a_on_road": false,
+  "b_on_road": false,
+  "same_depth": false,
+  "paths_cross": false,
+  "close": false,
+  "evasive": false,
+  "evidence": "A is a person standing near the corner while B is a car; they are not on the roadway or crossing and their paths do not intersect on the ground.",
+  "conflict_type": "none",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": true,
+  "latency_s": 324.1
+ },
+ "tyumen-prof-971-772": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "HTTP 503: b'{\"error\":{\"message\":\"ResourceExhausted: Worker local total request limit reached (16/16)\",\"type\":\"Service Unavailable\",\"'",
+  "latency_s": 321.9
+ },
+ "tyumen-prof-875-1174": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 461.7
+ },
+ "tyumen-prof-9-298": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 460.6
+ },
+ "tyumen-vodo-3-36": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 460.6
+ },
+ "tyumen-prof-737-840": {
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning",
+  "ok": false,
+  "error": "The read operation timed out",
+  "latency_s": 610.4
+ }
+}

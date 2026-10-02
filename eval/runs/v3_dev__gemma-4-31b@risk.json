@@ -1,0 +1,184 @@
+{
+ "pieix-252-310": {
+  "risk": 2,
+  "evidence": "The 1.40 second gap between the vehicles passing the red circle indicates they were not close enough in time to constitute a genuine near-miss.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "chiangmai-254-270": {
+  "risk": 2,
+  "evidence": "The visual overlap occurs at a significant distance from the camera, and the timing gap combined with the perspective suggests they were not physically close on the ground.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.3
+ },
+ "tyumen-prof-30-188": {
+  "risk": 2,
+  "evidence": "The 0.60s gap and the visual offset of the trails suggest the vehicles passed the point of intersection at different times and depths.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.7
+ },
+ "pieix-4-269": {
+  "risk": 1,
+  "evidence": "Road user B reaches the point of interest nearly three seconds after road user A has already cleared the area.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.8
+ },
+ "tyumen-prof-157-400": {
+  "risk": 2,
+  "evidence": "The 1.40 second gap between A and B passing the red circle indicates they were not at the same location at the same time.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.9
+ },
+ "chiangmai-58-123": {
+  "risk": 2,
+  "evidence": "The visual overlap occurs because vehicle B is significantly further back in the lane than vehicle A, as indicated by the perspective and relative sizes.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.0
+ },
+ "chiangmai-115-176": {
+  "risk": 2,
+  "evidence": "The significant time gap and the visual depth cues suggest that B was trailing A at a safe distance rather than crossing their path.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.2
+ },
+ "tyumen-prof-407-717": {
+  "risk": 1,
+  "evidence": "The 2.6 second gap between the vehicles passing the critical point indicates they were not close enough in time to constitute a near-miss.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.2
+ },
+ "tyumen-prof-397-437": {
+  "risk": 2,
+  "evidence": "The visual overlap occurs as the car passes in front of the pedestrian's position, but the timing and spatial gap indicate they were not in the same physical space at the same time.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.5
+ },
+ "pieix-2-252": {
+  "risk": 1,
+  "evidence": "Road user B reached the critical point a full second after road user A had already cleared it, indicating no immediate spatial-temporal conflict.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.5
+ },
+ "tyumen-prof-470-678": {
+  "risk": 2,
+  "evidence": "The significant time gap of 0.53 seconds and the visual depth separation suggest the vehicles were not close enough in space and time for a near-miss.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.3
+ },
+ "tyumen-prof-486-407": {
+  "risk": 1,
+  "evidence": "The vehicles are traveling in parallel lanes and maintain a significant lateral gap throughout the sequence.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.3
+ },
+ "tyumen-prof-17-10": {
+  "risk": 2,
+  "evidence": "The visual overlap occurs while B is significantly further back in the lane, and the 0.73s gap suggests they were not in the same space at the same time.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 3.2
+ },
+ "tyumen-prof-5-177": {
+  "risk": 2,
+  "evidence": "The visual overlap occurs at a significant depth difference, with vehicle B being much further from the camera than vehicle A.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.3
+ },
+ "tyumen-prof-875-1174": {
+  "risk": 2,
+  "evidence": "The significant time gap of 0.87 seconds between A and B passing the critical point suggests they were not close enough in time to constitute a near-miss.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.3
+ },
+ "tyumen-prof-407-732": {
+  "risk": 2,
+  "evidence": "The visual overlap occurs at different depths, and the 0.20s gap suggests they were not in the same spatial location at the same time.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.8
+ },
+ "chiangmai-145-176": {
+  "risk": 0,
+  "evidence": "Road user B reaches the red circle several seconds after road user A has already cleared the area.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 4.2
+ },
+ "tyumen-prof-548-647": {
+  "risk": 2,
+  "evidence": "The visual overlap occurs at different depths, and the 0.13s gap suggests they were not in the same space at the same time.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.2
+ },
+ "chiangmai-453-472": {
+  "risk": 2,
+  "evidence": "The visual overlap occurs at a distance where the car is clearly behind the truck's path, and the 0.07s gap is likely an artifact of perspective rather than a physical near-miss.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 4.5
+ },
+ "tyumen-prof-971-772": {
+  "risk": 2,
+  "evidence": "The visual overlap occurs at different depths, and the 0.20s gap suggests they were not in the same spatial location at the same time.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.4
+ },
+ "tyumen-prof-65-136": {
+  "risk": 2,
+  "evidence": "The significant time gap of 1.07 seconds between A and B passing the red circle suggests they were not close enough in time to constitute a genuine near-miss.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.4
+ },
+ "tyumen-vodo-3-36": {
+  "risk": 1,
+  "evidence": "The significant time gap of 1.87 seconds between the vehicles passing the same point indicates they were not close enough in time to constitute a near-miss.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 1.4
+ },
+ "tyumen-prof-873-1060": {
+  "risk": 2,
+  "evidence": "The significant time gap of 1.93 seconds between A and B passing the same point indicates they were not close enough in time for a near-miss.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.3
+ },
+ "tyumen-prof-737-840": {
+  "risk": 2,
+  "evidence": "The 1.47 second gap between the vehicles passing the red circle indicates they were not close enough in time to constitute a genuine near-miss.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.7
+ },
+ "tyumen-prof-9-188": {
+  "risk": 2,
+  "evidence": "The visual overlap occurs at a distance, and the 0.20s gap between A leaving and B entering the red circle suggests they were not in the same physical space at the same time.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.0
+ },
+ "tyumen-prof-9-298": {
+  "risk": 2,
+  "evidence": "The significant time gap of 2.33 seconds between A and B passing the red circle indicates they were not at the same location at the same time.",
+  "model": "google/gemma-4-31B-it",
+  "ok": true,
+  "latency_s": 2.7
+ }
+}

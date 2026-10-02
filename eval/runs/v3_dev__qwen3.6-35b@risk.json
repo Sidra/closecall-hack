@@ -1,0 +1,184 @@
+{
+ "chiangmai-115-176": {
+  "risk": 2,
+  "evidence": "The motorcycles are traveling in parallel lanes in the same direction with significant lateral separation, making a collision physically impossible.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.0
+ },
+ "chiangmai-453-472": {
+  "risk": 0,
+  "evidence": "The truck and car are traveling in parallel lanes in opposite directions and do not cross paths or occupy the same space.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "chiangmai-145-176": {
+  "risk": 0,
+  "evidence": "The two motorcycles are traveling in opposite directions and pass each other with ample lateral separation, showing no overlap in their paths or proximity to the marked intersection point.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.2
+ },
+ "chiangmai-254-270": {
+  "risk": 2,
+  "evidence": "The motorcycle (B) is significantly further away from the camera than the pedestrian (A) at the moment of closest approach, meaning they were not in the same physical space despite appearing close on screen.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.2
+ },
+ "pieix-252-310": {
+  "risk": 0,
+  "evidence": "The vehicles are in completely different lanes and at different distances from the camera, with no spatial or temporal overlap indicating a near-miss.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.0
+ },
+ "chiangmai-58-123": {
+  "risk": 2,
+  "evidence": "The vehicles are traveling in parallel lanes with significant lateral separation and no indication of converging paths or close proximity on the ground.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.2
+ },
+ "tyumen-prof-157-400": {
+  "risk": 2,
+  "evidence": "The vehicles are separated by significant lateral distance and time, with no indication of converging paths or proximity that would constitute a near-miss.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "pieix-4-269": {
+  "risk": 0,
+  "evidence": "The car and the pedestrian were never in the same location at the same time, as the pedestrian arrived at the intersection nearly 3 seconds after the car had already passed.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.2
+ },
+ "tyumen-prof-30-188": {
+  "risk": 0,
+  "evidence": "The vehicles are in completely different lanes and at different distances from the camera, with no spatial overlap or proximity to suggest a near-miss.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 0.9
+ },
+ "tyumen-prof-397-437": {
+  "risk": 2,
+  "evidence": "The car and pedestrian are separated by significant lateral distance and time, with the pedestrian remaining on the sidewalk while the car passes well ahead of the crossing point.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.2
+ },
+ "tyumen-prof-407-717": {
+  "risk": 0,
+  "evidence": "The vehicles are traveling in parallel lanes in opposite directions and pass each other with ample lateral separation, never entering the same space.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.0
+ },
+ "pieix-2-252": {
+  "risk": 0,
+  "evidence": "The bus and the car are traveling in opposite directions on separate lanes and never occupy the same space or cross paths.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.7
+ },
+ "tyumen-prof-470-678": {
+  "risk": 0,
+  "evidence": "The two vehicles are traveling in parallel lanes and never occupy the same space or come close to each other, as evidenced by the consistent lateral separation and lack of converging paths.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "tyumen-prof-407-732": {
+  "risk": 2,
+  "evidence": "The vehicles are traveling in parallel lanes and maintain a consistent lateral separation throughout the sequence, indicating they are simply passing each other rather than converging on a collision course.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "tyumen-prof-17-10": {
+  "risk": 2,
+  "evidence": "The vehicles are in separate lanes and maintain a safe lateral distance throughout the sequence, with no indication of path overlap or collision course.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.7
+ },
+ "tyumen-prof-548-647": {
+  "risk": 2,
+  "evidence": "The vehicles are traveling in parallel lanes in the same direction and maintain a safe lateral distance throughout the sequence, with no indication of converging paths or collision risk.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 0.9
+ },
+ "tyumen-prof-65-136": {
+  "risk": 2,
+  "evidence": "The truck and car are in different lanes and at different distances from the camera, with no indication of converging paths or close proximity on the ground.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 0.9
+ },
+ "tyumen-prof-873-1060": {
+  "risk": 0,
+  "evidence": "The pedestrian and the car were separated by a significant time gap of approximately 1.93 seconds, meaning they occupied the intersection at completely different times.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 0.8
+ },
+ "tyumen-prof-5-177": {
+  "risk": 0,
+  "evidence": "The vehicles are traveling in parallel lanes in opposite directions and do not cross paths or occupy the same space at any point.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "tyumen-vodo-3-36": {
+  "risk": 0,
+  "evidence": "The vehicles are traveling on parallel lanes in opposite directions with a wide median separating them, making a collision physically impossible.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.1
+ },
+ "tyumen-prof-971-772": {
+  "risk": 2,
+  "evidence": "The vehicles are traveling in parallel lanes in the same direction and maintain a safe lateral distance throughout the sequence, with no indication of converging paths or conflict.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.2
+ },
+ "tyumen-prof-875-1174": {
+  "risk": 2,
+  "evidence": "The car and truck are in different lanes and at different distances from the camera, with no overlapping paths or close proximity in time and space that would constitute a near-miss.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.8
+ },
+ "tyumen-prof-737-840": {
+  "risk": 0,
+  "evidence": "The car and truck are in completely different lanes and at different distances from the camera, with no spatial or temporal overlap indicating a near-miss.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 2.1
+ },
+ "tyumen-prof-9-188": {
+  "risk": 0,
+  "evidence": "The pedestrian remains on the sidewalk throughout the sequence while the car passes safely in the roadway without entering the pedestrian's path.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 1.9
+ },
+ "tyumen-prof-9-298": {
+  "risk": 0,
+  "evidence": "The pedestrian and the car were separated by a significant time gap of over 2 seconds and were at different locations in the scene, making a near-miss impossible.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 2.0
+ },
+ "tyumen-prof-486-407": {
+  "risk": 2,
+  "evidence": "The vehicles are separated by significant lateral distance and time, with no indication of close proximity or conflict in the roadway.",
+  "model": "Qwen/Qwen3.6-35B-A3B",
+  "ok": true,
+  "latency_s": 2.8
+ }
+}

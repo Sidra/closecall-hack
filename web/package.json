@@ -1,0 +1,28 @@
+{
+  "name": "web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3502",
+    "build": "next build",
+    "start": "next start --port 3502",
+    "lint": "eslint",
+    "test": "node --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "next": "16.3.8",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.8",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@11.5.3",
+  "description": "CloseCall: near-miss ledger for traffic-camera video (road safety, video AI, physical AI, VAST, NVIDIA, W&B)"
+}

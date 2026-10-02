@@ -1,0 +1,1720 @@
+{
+ "funnel": {
+  "pieix": {
+   "tracks": 205,
+   "naive": 330,
+   "crossing": 8,
+   "events": 7,
+   "duration_s": 60.6,
+   "title": "Pie-IX / Sherbrooke, Montr\u00e9al"
+  },
+  "tyumen-prof": {
+   "tracks": 251,
+   "naive": 609,
+   "crossing": 160,
+   "events": 33,
+   "duration_s": 30.47,
+   "title": "Respubliki / Profsoyuznaya, Tyumen"
+  },
+  "tyumen-vodo": {
+   "tracks": 27,
+   "naive": 8,
+   "crossing": 2,
+   "events": 2,
+   "duration_s": 35.53,
+   "title": "Respubliki / Vodoprovodnaya, Tyumen"
+  },
+  "chiangmai": {
+   "tracks": 109,
+   "naive": 218,
+   "crossing": 33,
+   "events": 9,
+   "duration_s": 14.47,
+   "title": "Intersection in Chiang Mai, Thailand"
+  }
+ },
+ "events": [
+  {
+   "id": "pieix-1066-410",
+   "source": "pieix",
+   "a": "1066",
+   "b": "410",
+   "a_cls": "bicycle",
+   "b_cls": "bus",
+   "pet_s": 0.13,
+   "t_a_exit": 40.933,
+   "t_b_enter": 41.067,
+   "cell_xy": [
+    156.0,
+    324.0
+   ],
+   "a_speed_pxs": 20.1,
+   "b_speed_pxs": 28.8,
+   "vulnerable": true,
+   "angle_deg": 62.9,
+   "pairs": [
+    "pieix-1066-410"
+   ],
+   "clip": "clips/pieix-1066-410.mp4",
+   "keyframes": [
+    "clips/pieix-1066-410_k0.jpg",
+    "clips/pieix-1066-410_k1.jpg",
+    "clips/pieix-1066-410_k2.jpg"
+   ],
+   "clip_t0": 38.43,
+   "clip_t1": 43.57
+  },
+  {
+   "id": "pieix-2-252",
+   "source": "pieix",
+   "a": "2",
+   "b": "252",
+   "a_cls": "bus",
+   "b_cls": "car",
+   "pet_s": 1.0,
+   "t_a_exit": 3.933,
+   "t_b_enter": 4.933,
+   "cell_xy": [
+    36.0,
+    300.0
+   ],
+   "a_speed_pxs": 45.3,
+   "b_speed_pxs": 26.2,
+   "vulnerable": false,
+   "angle_deg": 59.4,
+   "pairs": [
+    "pieix-2-252"
+   ],
+   "clip": "clips/pieix-2-252.mp4",
+   "keyframes": [
+    "clips/pieix-2-252_k0.jpg",
+    "clips/pieix-2-252_k1.jpg",
+    "clips/pieix-2-252_k2.jpg"
+   ],
+   "clip_t0": 1.43,
+   "clip_t1": 7.43
+  },
+  {
+   "id": "pieix-172-706",
+   "source": "pieix",
+   "a": "172",
+   "b": "706",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 1.13,
+   "t_a_exit": 18.467,
+   "t_b_enter": 19.6,
+   "cell_xy": [
+    708.0,
+    276.0
+   ],
+   "a_speed_pxs": 37.5,
+   "b_speed_pxs": 51.7,
+   "vulnerable": false,
+   "angle_deg": 136.9,
+   "pairs": [
+    "pieix-172-706",
+    "pieix-340-706"
+   ],
+   "clip": "clips/pieix-172-706.mp4",
+   "keyframes": [
+    "clips/pieix-172-706_k0.jpg",
+    "clips/pieix-172-706_k1.jpg",
+    "clips/pieix-172-706_k2.jpg"
+   ],
+   "clip_t0": 15.97,
+   "clip_t1": 22.1
+  },
+  {
+   "id": "pieix-252-310",
+   "source": "pieix",
+   "a": "252",
+   "b": "310",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 1.4,
+   "t_a_exit": 5.6,
+   "t_b_enter": 7.0,
+   "cell_xy": [
+    36.0,
+    300.0
+   ],
+   "a_speed_pxs": 26.2,
+   "b_speed_pxs": 19.8,
+   "vulnerable": false,
+   "angle_deg": 107.8,
+   "pairs": [
+    "pieix-252-310"
+   ],
+   "clip": "clips/pieix-252-310.mp4",
+   "keyframes": [
+    "clips/pieix-252-310_k0.jpg",
+    "clips/pieix-252-310_k1.jpg",
+    "clips/pieix-252-310_k2.jpg"
+   ],
+   "clip_t0": 3.1,
+   "clip_t1": 9.5
+  },
+  {
+   "id": "pieix-958-1066",
+   "source": "pieix",
+   "a": "958",
+   "b": "1066",
+   "a_cls": "person",
+   "b_cls": "bicycle",
+   "pet_s": 2.4,
+   "t_a_exit": 43.733,
+   "t_b_enter": 46.133,
+   "cell_xy": [
+    36.0,
+    372.0
+   ],
+   "a_speed_pxs": 12.5,
+   "b_speed_pxs": 20.1,
+   "vulnerable": true,
+   "angle_deg": 134.3,
+   "pairs": [
+    "pieix-958-1066"
+   ],
+   "clip": "clips/pieix-958-1066.mp4",
+   "keyframes": [
+    "clips/pieix-958-1066_k0.jpg",
+    "clips/pieix-958-1066_k1.jpg",
+    "clips/pieix-958-1066_k2.jpg"
+   ],
+   "clip_t0": 41.23,
+   "clip_t1": 48.63
+  },
+  {
+   "id": "pieix-4-269",
+   "source": "pieix",
+   "a": "4",
+   "b": "269",
+   "a_cls": "car",
+   "b_cls": "person",
+   "pet_s": 2.8,
+   "t_a_exit": 2.6,
+   "t_b_enter": 5.4,
+   "cell_xy": [
+    300.0,
+    300.0
+   ],
+   "a_speed_pxs": 52.0,
+   "b_speed_pxs": 13.0,
+   "vulnerable": true,
+   "angle_deg": 142.5,
+   "pairs": [
+    "pieix-4-269"
+   ],
+   "clip": "clips/pieix-4-269.mp4",
+   "keyframes": [
+    "clips/pieix-4-269_k0.jpg",
+    "clips/pieix-4-269_k1.jpg",
+    "clips/pieix-4-269_k2.jpg"
+   ],
+   "clip_t0": 0.1,
+   "clip_t1": 7.9
+  },
+  {
+   "id": "pieix-776-706",
+   "source": "pieix",
+   "a": "776",
+   "b": "706",
+   "a_cls": "person",
+   "b_cls": "car",
+   "pet_s": 2.93,
+   "t_a_exit": 23.4,
+   "t_b_enter": 26.333,
+   "cell_xy": [
+    540.0,
+    300.0
+   ],
+   "a_speed_pxs": 8.3,
+   "b_speed_pxs": 51.7,
+   "vulnerable": true,
+   "angle_deg": 44.9,
+   "pairs": [
+    "pieix-776-706"
+   ],
+   "clip": "clips/pieix-776-706.mp4",
+   "keyframes": [
+    "clips/pieix-776-706_k0.jpg",
+    "clips/pieix-776-706_k1.jpg",
+    "clips/pieix-776-706_k2.jpg"
+   ],
+   "clip_t0": 20.9,
+   "clip_t1": 28.83
+  },
+  {
+   "id": "tyumen-prof-5-177",
+   "source": "tyumen-prof",
+   "a": "5",
+   "b": "177",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.07,
+   "t_a_exit": 5.733,
+   "t_b_enter": 5.8,
+   "cell_xy": [
+    12.0,
+    492.0
+   ],
+   "a_speed_pxs": 113.1,
+   "b_speed_pxs": 31.5,
+   "vulnerable": false,
+   "angle_deg": 93.0,
+   "pairs": [
+    "tyumen-prof-5-177",
+    "tyumen-prof-272-14",
+    "tyumen-prof-272-310",
+    "tyumen-prof-65-272",
+    "tyumen-prof-177-272",
+    "tyumen-prof-65-310",
+    "tyumen-prof-195-310",
+    "tyumen-prof-6-177"
+   ],
+   "clip": "clips/tyumen-prof-5-177.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-5-177_k0.jpg",
+    "clips/tyumen-prof-5-177_k1.jpg",
+    "clips/tyumen-prof-5-177_k2.jpg"
+   ],
+   "clip_t0": 3.23,
+   "clip_t1": 8.3
+  },
+  {
+   "id": "tyumen-prof-310-157",
+   "source": "tyumen-prof",
+   "a": "310",
+   "b": "157",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.07,
+   "t_a_exit": 7.067,
+   "t_b_enter": 7.133,
+   "cell_xy": [
+    300.0,
+    324.0
+   ],
+   "a_speed_pxs": 84.9,
+   "b_speed_pxs": 47.7,
+   "vulnerable": false,
+   "angle_deg": 43.6,
+   "pairs": [
+    "tyumen-prof-310-157",
+    "tyumen-prof-190-157",
+    "tyumen-prof-310-268",
+    "tyumen-prof-238-190",
+    "tyumen-prof-190-58",
+    "tyumen-prof-225-157",
+    "tyumen-prof-136-310",
+    "tyumen-prof-109-310"
+   ],
+   "clip": "clips/tyumen-prof-310-157.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-310-157_k0.jpg",
+    "clips/tyumen-prof-310-157_k1.jpg",
+    "clips/tyumen-prof-310-157_k2.jpg"
+   ],
+   "clip_t0": 4.57,
+   "clip_t1": 9.63
+  },
+  {
+   "id": "tyumen-prof-397-437",
+   "source": "tyumen-prof",
+   "a": "397",
+   "b": "437",
+   "a_cls": "car",
+   "b_cls": "person",
+   "pet_s": 0.13,
+   "t_a_exit": 10.867,
+   "t_b_enter": 11.0,
+   "cell_xy": [
+    828.0,
+    324.0
+   ],
+   "a_speed_pxs": 55.6,
+   "b_speed_pxs": 13.7,
+   "vulnerable": true,
+   "angle_deg": 77.5,
+   "pairs": [
+    "tyumen-prof-397-437",
+    "tyumen-prof-437-423",
+    "tyumen-prof-188-344",
+    "tyumen-prof-437-470",
+    "tyumen-prof-344-437",
+    "tyumen-prof-248-437",
+    "tyumen-prof-188-397",
+    "tyumen-prof-298-437",
+    "tyumen-prof-208-344"
+   ],
+   "clip": "clips/tyumen-prof-397-437.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-397-437_k0.jpg",
+    "clips/tyumen-prof-397-437_k1.jpg",
+    "clips/tyumen-prof-397-437_k2.jpg"
+   ],
+   "clip_t0": 8.37,
+   "clip_t1": 13.5
+  },
+  {
+   "id": "tyumen-prof-486-407",
+   "source": "tyumen-prof",
+   "a": "486",
+   "b": "407",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.13,
+   "t_a_exit": 12.6,
+   "t_b_enter": 12.733,
+   "cell_xy": [
+    204.0,
+    324.0
+   ],
+   "a_speed_pxs": 36.8,
+   "b_speed_pxs": 82.5,
+   "vulnerable": false,
+   "angle_deg": 139.7,
+   "pairs": [
+    "tyumen-prof-486-407",
+    "tyumen-prof-113-407",
+    "tyumen-prof-486-548",
+    "tyumen-prof-486-259",
+    "tyumen-prof-400-407",
+    "tyumen-prof-411-407",
+    "tyumen-prof-400-326",
+    "tyumen-prof-352-548",
+    "tyumen-prof-157-444",
+    "tyumen-prof-400-548",
+    "tyumen-prof-65-407",
+    "tyumen-prof-157-486"
+   ],
+   "clip": "clips/tyumen-prof-486-407.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-486-407_k0.jpg",
+    "clips/tyumen-prof-486-407_k1.jpg",
+    "clips/tyumen-prof-486-407_k2.jpg"
+   ],
+   "clip_t0": 10.1,
+   "clip_t1": 15.23
+  },
+  {
+   "id": "tyumen-prof-548-647",
+   "source": "tyumen-prof",
+   "a": "548",
+   "b": "647",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.13,
+   "t_a_exit": 17.133,
+   "t_b_enter": 17.267,
+   "cell_xy": [
+    204.0,
+    300.0
+   ],
+   "a_speed_pxs": 52.9,
+   "b_speed_pxs": 77.0,
+   "vulnerable": true,
+   "angle_deg": 36.6,
+   "pairs": [
+    "tyumen-prof-548-647",
+    "tyumen-prof-407-548",
+    "tyumen-prof-647-760",
+    "tyumen-prof-548-760",
+    "tyumen-prof-486-647",
+    "tyumen-prof-407-383",
+    "tyumen-prof-548-717",
+    "tyumen-prof-352-647",
+    "tyumen-prof-326-647",
+    "tyumen-prof-565-647",
+    "tyumen-prof-382-647"
+   ],
+   "clip": "clips/tyumen-prof-548-647.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-548-647_k0.jpg",
+    "clips/tyumen-prof-548-647_k1.jpg",
+    "clips/tyumen-prof-548-647_k2.jpg"
+   ],
+   "clip_t0": 14.63,
+   "clip_t1": 19.77
+  },
+  {
+   "id": "tyumen-prof-983-1143",
+   "source": "tyumen-prof",
+   "a": "983",
+   "b": "1143",
+   "a_cls": "truck",
+   "b_cls": "car",
+   "pet_s": 0.13,
+   "t_a_exit": 25.667,
+   "t_b_enter": 25.8,
+   "cell_xy": [
+    612.0,
+    300.0
+   ],
+   "a_speed_pxs": 21.9,
+   "b_speed_pxs": 17.6,
+   "vulnerable": false,
+   "angle_deg": 91.7,
+   "pairs": [
+    "tyumen-prof-983-1143",
+    "tyumen-prof-866-1060",
+    "tyumen-prof-1154-1202",
+    "tyumen-prof-1115-1060",
+    "tyumen-prof-983-1154",
+    "tyumen-prof-786-1060",
+    "tyumen-prof-1115-1154",
+    "tyumen-prof-866-1162",
+    "tyumen-prof-786-1215",
+    "tyumen-prof-866-1110",
+    "tyumen-prof-983-1115",
+    "tyumen-prof-866-1215",
+    "tyumen-prof-866-1103",
+    "tyumen-prof-840-1143",
+    "tyumen-prof-786-1162",
+    "tyumen-prof-840-1154"
+   ],
+   "clip": "clips/tyumen-prof-983-1143.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-983-1143_k0.jpg",
+    "clips/tyumen-prof-983-1143_k1.jpg",
+    "clips/tyumen-prof-983-1143_k2.jpg"
+   ],
+   "clip_t0": 23.17,
+   "clip_t1": 28.3
+  },
+  {
+   "id": "tyumen-prof-9-188",
+   "source": "tyumen-prof",
+   "a": "9",
+   "b": "188",
+   "a_cls": "person",
+   "b_cls": "car",
+   "pet_s": 0.2,
+   "t_a_exit": 4.467,
+   "t_b_enter": 4.667,
+   "cell_xy": [
+    828.0,
+    348.0
+   ],
+   "a_speed_pxs": 30.4,
+   "b_speed_pxs": 65.9,
+   "vulnerable": true,
+   "angle_deg": 106.7,
+   "pairs": [
+    "tyumen-prof-9-188",
+    "tyumen-prof-111-204",
+    "tyumen-prof-204-188",
+    "tyumen-prof-9-248"
+   ],
+   "clip": "clips/tyumen-prof-9-188.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-9-188_k0.jpg",
+    "clips/tyumen-prof-9-188_k1.jpg",
+    "clips/tyumen-prof-9-188_k2.jpg"
+   ],
+   "clip_t0": 1.97,
+   "clip_t1": 7.17
+  },
+  {
+   "id": "tyumen-prof-14-177",
+   "source": "tyumen-prof",
+   "a": "14",
+   "b": "177",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.2,
+   "t_a_exit": 7.8,
+   "t_b_enter": 8.0,
+   "cell_xy": [
+    12.0,
+    468.0
+   ],
+   "a_speed_pxs": 84.6,
+   "b_speed_pxs": 31.5,
+   "vulnerable": false,
+   "angle_deg": 88.5,
+   "pairs": [
+    "tyumen-prof-14-177",
+    "tyumen-prof-177-58",
+    "tyumen-prof-272-58",
+    "tyumen-prof-195-272"
+   ],
+   "clip": "clips/tyumen-prof-14-177.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-14-177_k0.jpg",
+    "clips/tyumen-prof-14-177_k1.jpg",
+    "clips/tyumen-prof-14-177_k2.jpg"
+   ],
+   "clip_t0": 5.3,
+   "clip_t1": 10.5
+  },
+  {
+   "id": "tyumen-prof-407-732",
+   "source": "tyumen-prof",
+   "a": "407",
+   "b": "732",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.2,
+   "t_a_exit": 17.6,
+   "t_b_enter": 17.8,
+   "cell_xy": [
+    60.0,
+    324.0
+   ],
+   "a_speed_pxs": 82.5,
+   "b_speed_pxs": 110.5,
+   "vulnerable": false,
+   "angle_deg": 73.5,
+   "pairs": [
+    "tyumen-prof-407-732",
+    "tyumen-prof-407-647",
+    "tyumen-prof-603-732",
+    "tyumen-prof-565-732",
+    "tyumen-prof-603-647"
+   ],
+   "clip": "clips/tyumen-prof-407-732.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-407-732_k0.jpg",
+    "clips/tyumen-prof-407-732_k1.jpg",
+    "clips/tyumen-prof-407-732_k2.jpg"
+   ],
+   "clip_t0": 15.1,
+   "clip_t1": 20.3
+  },
+  {
+   "id": "tyumen-prof-971-772",
+   "source": "tyumen-prof",
+   "a": "971",
+   "b": "772",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.2,
+   "t_a_exit": 25.267,
+   "t_b_enter": 25.467,
+   "cell_xy": [
+    12.0,
+    324.0
+   ],
+   "a_speed_pxs": 56.8,
+   "b_speed_pxs": 74.3,
+   "vulnerable": false,
+   "angle_deg": 44.2,
+   "pairs": [
+    "tyumen-prof-971-772",
+    "tyumen-prof-813-971",
+    "tyumen-prof-971-929",
+    "tyumen-prof-853-971",
+    "tyumen-prof-717-971"
+   ],
+   "clip": "clips/tyumen-prof-971-772.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-971-772_k0.jpg",
+    "clips/tyumen-prof-971-772_k1.jpg",
+    "clips/tyumen-prof-971-772_k2.jpg"
+   ],
+   "clip_t0": 22.77,
+   "clip_t1": 27.97
+  },
+  {
+   "id": "tyumen-prof-2-3",
+   "source": "tyumen-prof",
+   "a": "2",
+   "b": "3",
+   "a_cls": "truck",
+   "b_cls": "car",
+   "pet_s": 0.27,
+   "t_a_exit": 1.0,
+   "t_b_enter": 1.267,
+   "cell_xy": [
+    180.0,
+    372.0
+   ],
+   "a_speed_pxs": 60.5,
+   "b_speed_pxs": 133.1,
+   "vulnerable": false,
+   "angle_deg": 69.8,
+   "pairs": [
+    "tyumen-prof-2-3",
+    "tyumen-prof-2-4",
+    "tyumen-prof-2-118",
+    "tyumen-prof-2-136"
+   ],
+   "clip": "clips/tyumen-prof-2-3.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-2-3_k0.jpg",
+    "clips/tyumen-prof-2-3_k1.jpg",
+    "clips/tyumen-prof-2-3_k2.jpg"
+   ],
+   "clip_t0": 0.0,
+   "clip_t1": 3.77
+  },
+  {
+   "id": "tyumen-prof-188-248",
+   "source": "tyumen-prof",
+   "a": "188",
+   "b": "248",
+   "a_cls": "car",
+   "b_cls": "truck",
+   "pet_s": 0.27,
+   "t_a_exit": 8.267,
+   "t_b_enter": 8.533,
+   "cell_xy": [
+    684.0,
+    324.0
+   ],
+   "a_speed_pxs": 65.9,
+   "b_speed_pxs": 43.7,
+   "vulnerable": true,
+   "angle_deg": 36.4,
+   "pairs": [
+    "tyumen-prof-188-248",
+    "tyumen-prof-188-298",
+    "tyumen-prof-208-248",
+    "tyumen-prof-204-248",
+    "tyumen-prof-208-298",
+    "tyumen-prof-204-298",
+    "tyumen-prof-30-298",
+    "tyumen-prof-30-248",
+    "tyumen-prof-9-344"
+   ],
+   "clip": "clips/tyumen-prof-188-248.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-188-248_k0.jpg",
+    "clips/tyumen-prof-188-248_k1.jpg",
+    "clips/tyumen-prof-188-248_k2.jpg"
+   ],
+   "clip_t0": 5.77,
+   "clip_t1": 11.03
+  },
+  {
+   "id": "tyumen-prof-559-470",
+   "source": "tyumen-prof",
+   "a": "559",
+   "b": "470",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.27,
+   "t_a_exit": 14.2,
+   "t_b_enter": 14.467,
+   "cell_xy": [
+    684.0,
+    300.0
+   ],
+   "a_speed_pxs": 11.2,
+   "b_speed_pxs": 34.2,
+   "vulnerable": false,
+   "angle_deg": 83.8,
+   "pairs": [
+    "tyumen-prof-559-470",
+    "tyumen-prof-528-470",
+    "tyumen-prof-248-528",
+    "tyumen-prof-559-567",
+    "tyumen-prof-248-559",
+    "tyumen-prof-528-567",
+    "tyumen-prof-344-470",
+    "tyumen-prof-298-528",
+    "tyumen-prof-298-559"
+   ],
+   "clip": "clips/tyumen-prof-559-470.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-559-470_k0.jpg",
+    "clips/tyumen-prof-559-470_k1.jpg",
+    "clips/tyumen-prof-559-470_k2.jpg"
+   ],
+   "clip_t0": 11.7,
+   "clip_t1": 16.97
+  },
+  {
+   "id": "tyumen-prof-470-678",
+   "source": "tyumen-prof",
+   "a": "470",
+   "b": "678",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.53,
+   "t_a_exit": 16.067,
+   "t_b_enter": 16.6,
+   "cell_xy": [
+    636.0,
+    300.0
+   ],
+   "a_speed_pxs": 34.2,
+   "b_speed_pxs": 54.6,
+   "vulnerable": false,
+   "angle_deg": 95.5,
+   "pairs": [
+    "tyumen-prof-470-678",
+    "tyumen-prof-608-678"
+   ],
+   "clip": "clips/tyumen-prof-470-678.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-470-678_k0.jpg",
+    "clips/tyumen-prof-470-678_k1.jpg",
+    "clips/tyumen-prof-470-678_k2.jpg"
+   ],
+   "clip_t0": 13.57,
+   "clip_t1": 19.1
+  },
+  {
+   "id": "tyumen-prof-30-188",
+   "source": "tyumen-prof",
+   "a": "30",
+   "b": "188",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.6,
+   "t_a_exit": 5.067,
+   "t_b_enter": 5.667,
+   "cell_xy": [
+    684.0,
+    324.0
+   ],
+   "a_speed_pxs": 65.1,
+   "b_speed_pxs": 65.9,
+   "vulnerable": false,
+   "angle_deg": 135.7,
+   "pairs": [
+    "tyumen-prof-30-188",
+    "tyumen-prof-208-188",
+    "tyumen-prof-10-208",
+    "tyumen-prof-58-208",
+    "tyumen-prof-16-208",
+    "tyumen-prof-14-208",
+    "tyumen-prof-5-208"
+   ],
+   "clip": "clips/tyumen-prof-30-188.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-30-188_k0.jpg",
+    "clips/tyumen-prof-30-188_k1.jpg",
+    "clips/tyumen-prof-30-188_k2.jpg"
+   ],
+   "clip_t0": 2.57,
+   "clip_t1": 8.17
+  },
+  {
+   "id": "tyumen-prof-437-567",
+   "source": "tyumen-prof",
+   "a": "437",
+   "b": "567",
+   "a_cls": "person",
+   "b_cls": "car",
+   "pet_s": 0.6,
+   "t_a_exit": 13.8,
+   "t_b_enter": 14.4,
+   "cell_xy": [
+    828.0,
+    324.0
+   ],
+   "a_speed_pxs": 13.7,
+   "b_speed_pxs": 37.5,
+   "vulnerable": true,
+   "angle_deg": 95.6,
+   "pairs": [
+    "tyumen-prof-437-567",
+    "tyumen-prof-437-629"
+   ],
+   "clip": "clips/tyumen-prof-437-567.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-437-567_k0.jpg",
+    "clips/tyumen-prof-437-567_k1.jpg",
+    "clips/tyumen-prof-437-567_k2.jpg"
+   ],
+   "clip_t0": 11.3,
+   "clip_t1": 16.9
+  },
+  {
+   "id": "tyumen-prof-537-648",
+   "source": "tyumen-prof",
+   "a": "537",
+   "b": "648",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.6,
+   "t_a_exit": 17.333,
+   "t_b_enter": 17.933,
+   "cell_xy": [
+    444.0,
+    300.0
+   ],
+   "a_speed_pxs": 28.4,
+   "b_speed_pxs": 63.7,
+   "vulnerable": false,
+   "angle_deg": 37.6,
+   "pairs": [
+    "tyumen-prof-537-648",
+    "tyumen-prof-537-430",
+    "tyumen-prof-537-813"
+   ],
+   "clip": "clips/tyumen-prof-537-648.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-537-648_k0.jpg",
+    "clips/tyumen-prof-537-648_k1.jpg",
+    "clips/tyumen-prof-537-648_k2.jpg"
+   ],
+   "clip_t0": 14.83,
+   "clip_t1": 20.43
+  },
+  {
+   "id": "tyumen-prof-17-10",
+   "source": "tyumen-prof",
+   "a": "17",
+   "b": "10",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.73,
+   "t_a_exit": 0.733,
+   "t_b_enter": 1.467,
+   "cell_xy": [
+    684.0,
+    324.0
+   ],
+   "a_speed_pxs": 19.5,
+   "b_speed_pxs": 50.4,
+   "vulnerable": false,
+   "angle_deg": 36.6,
+   "pairs": [
+    "tyumen-prof-17-10",
+    "tyumen-prof-17-55"
+   ],
+   "clip": "clips/tyumen-prof-17-10.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-17-10_k0.jpg",
+    "clips/tyumen-prof-17-10_k1.jpg",
+    "clips/tyumen-prof-17-10_k2.jpg"
+   ],
+   "clip_t0": 0.0,
+   "clip_t1": 3.97
+  },
+  {
+   "id": "tyumen-prof-875-1174",
+   "source": "tyumen-prof",
+   "a": "875",
+   "b": "1174",
+   "a_cls": "car",
+   "b_cls": "truck",
+   "pet_s": 0.87,
+   "t_a_exit": 26.267,
+   "t_b_enter": 27.133,
+   "cell_xy": [
+    348.0,
+    276.0
+   ],
+   "a_speed_pxs": 10.8,
+   "b_speed_pxs": 99.4,
+   "vulnerable": false,
+   "angle_deg": 141.2,
+   "pairs": [
+    "tyumen-prof-875-1174",
+    "tyumen-prof-1044-1236",
+    "tyumen-prof-1044-1193",
+    "tyumen-prof-1044-983"
+   ],
+   "clip": "clips/tyumen-prof-875-1174.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-875-1174_k0.jpg",
+    "clips/tyumen-prof-875-1174_k1.jpg",
+    "clips/tyumen-prof-875-1174_k2.jpg"
+   ],
+   "clip_t0": 23.77,
+   "clip_t1": 29.63
+  },
+  {
+   "id": "tyumen-prof-65-136",
+   "source": "tyumen-prof",
+   "a": "65",
+   "b": "136",
+   "a_cls": "truck",
+   "b_cls": "car",
+   "pet_s": 1.07,
+   "t_a_exit": 3.667,
+   "t_b_enter": 4.733,
+   "cell_xy": [
+    108.0,
+    324.0
+   ],
+   "a_speed_pxs": 65.7,
+   "b_speed_pxs": 60.3,
+   "vulnerable": false,
+   "angle_deg": 135.6,
+   "pairs": [
+    "tyumen-prof-65-136",
+    "tyumen-prof-65-268",
+    "tyumen-prof-1-177",
+    "tyumen-prof-2-53"
+   ],
+   "clip": "clips/tyumen-prof-65-136.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-65-136_k0.jpg",
+    "clips/tyumen-prof-65-136_k1.jpg",
+    "clips/tyumen-prof-65-136_k2.jpg"
+   ],
+   "clip_t0": 1.17,
+   "clip_t1": 7.23
+  },
+  {
+   "id": "tyumen-prof-157-400",
+   "source": "tyumen-prof",
+   "a": "157",
+   "b": "400",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 1.4,
+   "t_a_exit": 8.2,
+   "t_b_enter": 9.6,
+   "cell_xy": [
+    276.0,
+    324.0
+   ],
+   "a_speed_pxs": 47.7,
+   "b_speed_pxs": 29.1,
+   "vulnerable": false,
+   "angle_deg": 35.4,
+   "pairs": [
+    "tyumen-prof-157-400",
+    "tyumen-prof-190-400",
+    "tyumen-prof-190-407",
+    "tyumen-prof-268-400",
+    "tyumen-prof-190-382",
+    "tyumen-prof-268-407",
+    "tyumen-prof-225-326"
+   ],
+   "clip": "clips/tyumen-prof-157-400.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-157-400_k0.jpg",
+    "clips/tyumen-prof-157-400_k1.jpg",
+    "clips/tyumen-prof-157-400_k2.jpg"
+   ],
+   "clip_t0": 5.7,
+   "clip_t1": 12.1
+  },
+  {
+   "id": "tyumen-prof-326-548",
+   "source": "tyumen-prof",
+   "a": "326",
+   "b": "548",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 1.4,
+   "t_a_exit": 11.733,
+   "t_b_enter": 13.133,
+   "cell_xy": [
+    396.0,
+    324.0
+   ],
+   "a_speed_pxs": 66.0,
+   "b_speed_pxs": 52.9,
+   "vulnerable": false,
+   "angle_deg": 57.4,
+   "pairs": [
+    "tyumen-prof-326-548"
+   ],
+   "clip": "clips/tyumen-prof-326-548.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-326-548_k0.jpg",
+    "clips/tyumen-prof-326-548_k1.jpg",
+    "clips/tyumen-prof-326-548_k2.jpg"
+   ],
+   "clip_t0": 9.23,
+   "clip_t1": 15.63
+  },
+  {
+   "id": "tyumen-prof-654-786",
+   "source": "tyumen-prof",
+   "a": "654",
+   "b": "786",
+   "a_cls": "person",
+   "b_cls": "car",
+   "pet_s": 1.4,
+   "t_a_exit": 19.733,
+   "t_b_enter": 21.133,
+   "cell_xy": [
+    804.0,
+    300.0
+   ],
+   "a_speed_pxs": 7.9,
+   "b_speed_pxs": 39.5,
+   "vulnerable": true,
+   "angle_deg": 95.4,
+   "pairs": [
+    "tyumen-prof-654-786",
+    "tyumen-prof-629-654",
+    "tyumen-prof-654-866"
+   ],
+   "clip": "clips/tyumen-prof-654-786.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-654-786_k0.jpg",
+    "clips/tyumen-prof-654-786_k1.jpg",
+    "clips/tyumen-prof-654-786_k2.jpg"
+   ],
+   "clip_t0": 17.23,
+   "clip_t1": 23.63
+  },
+  {
+   "id": "tyumen-prof-737-840",
+   "source": "tyumen-prof",
+   "a": "737",
+   "b": "840",
+   "a_cls": "car",
+   "b_cls": "truck",
+   "pet_s": 1.47,
+   "t_a_exit": 19.2,
+   "t_b_enter": 20.667,
+   "cell_xy": [
+    588.0,
+    300.0
+   ],
+   "a_speed_pxs": 69.5,
+   "b_speed_pxs": 23.4,
+   "vulnerable": false,
+   "angle_deg": 106.7,
+   "pairs": [
+    "tyumen-prof-737-840",
+    "tyumen-prof-590-840",
+    "tyumen-prof-678-840"
+   ],
+   "clip": "clips/tyumen-prof-737-840.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-737-840_k0.jpg",
+    "clips/tyumen-prof-737-840_k1.jpg",
+    "clips/tyumen-prof-737-840_k2.jpg"
+   ],
+   "clip_t0": 16.7,
+   "clip_t1": 23.17
+  },
+  {
+   "id": "tyumen-prof-873-1060",
+   "source": "tyumen-prof",
+   "a": "873",
+   "b": "1060",
+   "a_cls": "person",
+   "b_cls": "car",
+   "pet_s": 1.93,
+   "t_a_exit": 23.6,
+   "t_b_enter": 25.533,
+   "cell_xy": [
+    828.0,
+    300.0
+   ],
+   "a_speed_pxs": 7.8,
+   "b_speed_pxs": 79.9,
+   "vulnerable": true,
+   "angle_deg": 118.7,
+   "pairs": [
+    "tyumen-prof-873-1060",
+    "tyumen-prof-873-1110",
+    "tyumen-prof-861-1110",
+    "tyumen-prof-873-1162",
+    "tyumen-prof-861-1162",
+    "tyumen-prof-873-1103"
+   ],
+   "clip": "clips/tyumen-prof-873-1060.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-873-1060_k0.jpg",
+    "clips/tyumen-prof-873-1060_k1.jpg",
+    "clips/tyumen-prof-873-1060_k2.jpg"
+   ],
+   "clip_t0": 21.1,
+   "clip_t1": 28.03
+  },
+  {
+   "id": "tyumen-prof-383-344",
+   "source": "tyumen-prof",
+   "a": "383",
+   "b": "344",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 2.0,
+   "t_a_exit": 9.2,
+   "t_b_enter": 11.2,
+   "cell_xy": [
+    612.0,
+    300.0
+   ],
+   "a_speed_pxs": 50.9,
+   "b_speed_pxs": 70.6,
+   "vulnerable": false,
+   "angle_deg": 39.7,
+   "pairs": [
+    "tyumen-prof-383-344"
+   ],
+   "clip": "clips/tyumen-prof-383-344.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-383-344_k0.jpg",
+    "clips/tyumen-prof-383-344_k1.jpg",
+    "clips/tyumen-prof-383-344_k2.jpg"
+   ],
+   "clip_t0": 6.7,
+   "clip_t1": 13.7
+  },
+  {
+   "id": "tyumen-prof-971-909",
+   "source": "tyumen-prof",
+   "a": "971",
+   "b": "909",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 2.13,
+   "t_a_exit": 23.4,
+   "t_b_enter": 25.533,
+   "cell_xy": [
+    180.0,
+    324.0
+   ],
+   "a_speed_pxs": 56.8,
+   "b_speed_pxs": 65.3,
+   "vulnerable": true,
+   "angle_deg": 46.5,
+   "pairs": [
+    "tyumen-prof-971-909",
+    "tyumen-prof-885-772",
+    "tyumen-prof-885-909"
+   ],
+   "clip": "clips/tyumen-prof-971-909.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-971-909_k0.jpg",
+    "clips/tyumen-prof-971-909_k1.jpg",
+    "clips/tyumen-prof-971-909_k2.jpg"
+   ],
+   "clip_t0": 20.9,
+   "clip_t1": 28.03
+  },
+  {
+   "id": "tyumen-prof-9-298",
+   "source": "tyumen-prof",
+   "a": "9",
+   "b": "298",
+   "a_cls": "person",
+   "b_cls": "car",
+   "pet_s": 2.33,
+   "t_a_exit": 4.467,
+   "t_b_enter": 6.8,
+   "cell_xy": [
+    828.0,
+    348.0
+   ],
+   "a_speed_pxs": 30.4,
+   "b_speed_pxs": 70.6,
+   "vulnerable": true,
+   "angle_deg": 106.6,
+   "pairs": [
+    "tyumen-prof-9-298"
+   ],
+   "clip": "clips/tyumen-prof-9-298.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-9-298_k0.jpg",
+    "clips/tyumen-prof-9-298_k1.jpg",
+    "clips/tyumen-prof-9-298_k2.jpg"
+   ],
+   "clip_t0": 1.97,
+   "clip_t1": 9.3
+  },
+  {
+   "id": "tyumen-prof-407-717",
+   "source": "tyumen-prof",
+   "a": "407",
+   "b": "717",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 2.6,
+   "t_a_exit": 17.467,
+   "t_b_enter": 20.067,
+   "cell_xy": [
+    108.0,
+    348.0
+   ],
+   "a_speed_pxs": 82.5,
+   "b_speed_pxs": 101.8,
+   "vulnerable": false,
+   "angle_deg": 65.6,
+   "pairs": [
+    "tyumen-prof-407-717",
+    "tyumen-prof-407-853"
+   ],
+   "clip": "clips/tyumen-prof-407-717.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-407-717_k0.jpg",
+    "clips/tyumen-prof-407-717_k1.jpg",
+    "clips/tyumen-prof-407-717_k2.jpg"
+   ],
+   "clip_t0": 14.97,
+   "clip_t1": 22.57
+  },
+  {
+   "id": "tyumen-prof-717-941",
+   "source": "tyumen-prof",
+   "a": "717",
+   "b": "941",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 3.2,
+   "t_a_exit": 19.2,
+   "t_b_enter": 22.4,
+   "cell_xy": [
+    396.0,
+    300.0
+   ],
+   "a_speed_pxs": 101.8,
+   "b_speed_pxs": 44.8,
+   "vulnerable": false,
+   "angle_deg": 39.9,
+   "pairs": [
+    "tyumen-prof-717-941",
+    "tyumen-prof-537-909"
+   ],
+   "clip": "clips/tyumen-prof-717-941.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-717-941_k0.jpg",
+    "clips/tyumen-prof-717-941_k1.jpg",
+    "clips/tyumen-prof-717-941_k2.jpg"
+   ],
+   "clip_t0": 16.7,
+   "clip_t1": 24.7
+  },
+  {
+   "id": "tyumen-prof-272-407",
+   "source": "tyumen-prof",
+   "a": "272",
+   "b": "407",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 3.27,
+   "t_a_exit": 7.133,
+   "t_b_enter": 10.4,
+   "cell_xy": [
+    60.0,
+    372.0
+   ],
+   "a_speed_pxs": 120.5,
+   "b_speed_pxs": 82.5,
+   "vulnerable": false,
+   "angle_deg": 64.8,
+   "pairs": [
+    "tyumen-prof-272-407"
+   ],
+   "clip": "clips/tyumen-prof-272-407.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-272-407_k0.jpg",
+    "clips/tyumen-prof-272-407_k1.jpg",
+    "clips/tyumen-prof-272-407_k2.jpg"
+   ],
+   "clip_t0": 4.63,
+   "clip_t1": 12.63
+  },
+  {
+   "id": "tyumen-prof-647-971",
+   "source": "tyumen-prof",
+   "a": "647",
+   "b": "971",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 3.33,
+   "t_a_exit": 19.933,
+   "t_b_enter": 23.267,
+   "cell_xy": [
+    12.0,
+    324.0
+   ],
+   "a_speed_pxs": 77.0,
+   "b_speed_pxs": 56.8,
+   "vulnerable": false,
+   "angle_deg": 81.0,
+   "pairs": [
+    "tyumen-prof-647-971"
+   ],
+   "clip": "clips/tyumen-prof-647-971.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-647-971_k0.jpg",
+    "clips/tyumen-prof-647-971_k1.jpg",
+    "clips/tyumen-prof-647-971_k2.jpg"
+   ],
+   "clip_t0": 17.43,
+   "clip_t1": 25.43
+  },
+  {
+   "id": "tyumen-prof-1044-1202",
+   "source": "tyumen-prof",
+   "a": "1044",
+   "b": "1202",
+   "a_cls": "truck",
+   "b_cls": "bus",
+   "pet_s": 3.8,
+   "t_a_exit": 26.0,
+   "t_b_enter": 29.8,
+   "cell_xy": [
+    492.0,
+    276.0
+   ],
+   "a_speed_pxs": 42.9,
+   "b_speed_pxs": 23.3,
+   "vulnerable": false,
+   "angle_deg": 79.3,
+   "pairs": [
+    "tyumen-prof-1044-1202"
+   ],
+   "clip": "clips/tyumen-prof-1044-1202.mp4",
+   "keyframes": [
+    "clips/tyumen-prof-1044-1202_k0.jpg",
+    "clips/tyumen-prof-1044-1202_k1.jpg",
+    "clips/tyumen-prof-1044-1202_k2.jpg"
+   ],
+   "clip_t0": 23.5,
+   "clip_t1": 30.47
+  },
+  {
+   "id": "tyumen-vodo-3-38",
+   "source": "tyumen-vodo",
+   "a": "3",
+   "b": "38",
+   "a_cls": "car",
+   "b_cls": "person",
+   "pet_s": 0.87,
+   "t_a_exit": 1.867,
+   "t_b_enter": 2.733,
+   "cell_xy": [
+    228.0,
+    348.0
+   ],
+   "a_speed_pxs": 182.2,
+   "b_speed_pxs": 13.9,
+   "vulnerable": true,
+   "angle_deg": 125.4,
+   "pairs": [
+    "tyumen-vodo-3-38"
+   ],
+   "clip": "clips/tyumen-vodo-3-38.mp4",
+   "keyframes": [
+    "clips/tyumen-vodo-3-38_k0.jpg",
+    "clips/tyumen-vodo-3-38_k1.jpg",
+    "clips/tyumen-vodo-3-38_k2.jpg"
+   ],
+   "clip_t0": 0.0,
+   "clip_t1": 5.23
+  },
+  {
+   "id": "tyumen-vodo-3-36",
+   "source": "tyumen-vodo",
+   "a": "3",
+   "b": "36",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 1.87,
+   "t_a_exit": 0.8,
+   "t_b_enter": 2.667,
+   "cell_xy": [
+    12.0,
+    348.0
+   ],
+   "a_speed_pxs": 182.2,
+   "b_speed_pxs": 26.2,
+   "vulnerable": false,
+   "angle_deg": 68.4,
+   "pairs": [
+    "tyumen-vodo-3-36"
+   ],
+   "clip": "clips/tyumen-vodo-3-36.mp4",
+   "keyframes": [
+    "clips/tyumen-vodo-3-36_k0.jpg",
+    "clips/tyumen-vodo-3-36_k1.jpg",
+    "clips/tyumen-vodo-3-36_k2.jpg"
+   ],
+   "clip_t0": 0.0,
+   "clip_t1": 5.17
+  },
+  {
+   "id": "chiangmai-2-123",
+   "source": "chiangmai",
+   "a": "2",
+   "b": "123",
+   "a_cls": "car",
+   "b_cls": "truck",
+   "pet_s": 0.07,
+   "t_a_exit": 4.467,
+   "t_b_enter": 4.533,
+   "cell_xy": [
+    972.0,
+    348.0
+   ],
+   "a_speed_pxs": 76.3,
+   "b_speed_pxs": 16.5,
+   "vulnerable": true,
+   "angle_deg": 84.2,
+   "pairs": [
+    "chiangmai-2-123",
+    "chiangmai-123-224",
+    "chiangmai-20-123"
+   ],
+   "clip": "clips/chiangmai-2-123.mp4",
+   "keyframes": [
+    "clips/chiangmai-2-123_k0.jpg",
+    "clips/chiangmai-2-123_k1.jpg",
+    "clips/chiangmai-2-123_k2.jpg"
+   ],
+   "clip_t0": 1.97,
+   "clip_t1": 7.03
+  },
+  {
+   "id": "chiangmai-58-123",
+   "source": "chiangmai",
+   "a": "58",
+   "b": "123",
+   "a_cls": "car",
+   "b_cls": "truck",
+   "pet_s": 0.07,
+   "t_a_exit": 7.467,
+   "t_b_enter": 7.533,
+   "cell_xy": [
+    900.0,
+    348.0
+   ],
+   "a_speed_pxs": 54.2,
+   "b_speed_pxs": 16.5,
+   "vulnerable": false,
+   "angle_deg": 96.2,
+   "pairs": [
+    "chiangmai-58-123",
+    "chiangmai-79-123"
+   ],
+   "clip": "clips/chiangmai-58-123.mp4",
+   "keyframes": [
+    "clips/chiangmai-58-123_k0.jpg",
+    "clips/chiangmai-58-123_k1.jpg",
+    "clips/chiangmai-58-123_k2.jpg"
+   ],
+   "clip_t0": 4.97,
+   "clip_t1": 10.03
+  },
+  {
+   "id": "chiangmai-453-472",
+   "source": "chiangmai",
+   "a": "453",
+   "b": "472",
+   "a_cls": "truck",
+   "b_cls": "car",
+   "pet_s": 0.07,
+   "t_a_exit": 12.267,
+   "t_b_enter": 12.333,
+   "cell_xy": [
+    540.0,
+    276.0
+   ],
+   "a_speed_pxs": 78.0,
+   "b_speed_pxs": 45.7,
+   "vulnerable": false,
+   "angle_deg": 100.1,
+   "pairs": [
+    "chiangmai-453-472",
+    "chiangmai-453-454",
+    "chiangmai-427-453",
+    "chiangmai-421-453",
+    "chiangmai-400-453",
+    "chiangmai-388-453",
+    "chiangmai-375-453"
+   ],
+   "clip": "clips/chiangmai-453-472.mp4",
+   "keyframes": [
+    "clips/chiangmai-453-472_k0.jpg",
+    "clips/chiangmai-453-472_k1.jpg",
+    "clips/chiangmai-453-472_k2.jpg"
+   ],
+   "clip_t0": 9.77,
+   "clip_t1": 14.47
+  },
+  {
+   "id": "chiangmai-219-352",
+   "source": "chiangmai",
+   "a": "219",
+   "b": "352",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.13,
+   "t_a_exit": 9.2,
+   "t_b_enter": 9.333,
+   "cell_xy": [
+    516.0,
+    324.0
+   ],
+   "a_speed_pxs": 71.6,
+   "b_speed_pxs": 86.4,
+   "vulnerable": true,
+   "angle_deg": 109.6,
+   "pairs": [
+    "chiangmai-219-352",
+    "chiangmai-352-386",
+    "chiangmai-219-386",
+    "chiangmai-254-386",
+    "chiangmai-6-375",
+    "chiangmai-6-352",
+    "chiangmai-6-386",
+    "chiangmai-6-398",
+    "chiangmai-6-400"
+   ],
+   "clip": "clips/chiangmai-219-352.mp4",
+   "keyframes": [
+    "clips/chiangmai-219-352_k0.jpg",
+    "clips/chiangmai-219-352_k1.jpg",
+    "clips/chiangmai-219-352_k2.jpg"
+   ],
+   "clip_t0": 6.7,
+   "clip_t1": 11.83
+  },
+  {
+   "id": "chiangmai-254-270",
+   "source": "chiangmai",
+   "a": "254",
+   "b": "270",
+   "a_cls": "person",
+   "b_cls": "motorcycle",
+   "pet_s": 0.13,
+   "t_a_exit": 5.933,
+   "t_b_enter": 6.067,
+   "cell_xy": [
+    420.0,
+    300.0
+   ],
+   "a_speed_pxs": 10.5,
+   "b_speed_pxs": 23.6,
+   "vulnerable": true,
+   "angle_deg": 124.8,
+   "pairs": [
+    "chiangmai-254-270",
+    "chiangmai-176-254",
+    "chiangmai-115-254",
+    "chiangmai-176-219",
+    "chiangmai-115-219"
+   ],
+   "clip": "clips/chiangmai-254-270.mp4",
+   "keyframes": [
+    "clips/chiangmai-254-270_k0.jpg",
+    "clips/chiangmai-254-270_k1.jpg",
+    "clips/chiangmai-254-270_k2.jpg"
+   ],
+   "clip_t0": 3.43,
+   "clip_t1": 8.57
+  },
+  {
+   "id": "chiangmai-115-176",
+   "source": "chiangmai",
+   "a": "115",
+   "b": "176",
+   "a_cls": "motorcycle",
+   "b_cls": "motorcycle",
+   "pet_s": 0.33,
+   "t_a_exit": 3.0,
+   "t_b_enter": 3.333,
+   "cell_xy": [
+    444.0,
+    300.0
+   ],
+   "a_speed_pxs": 133.4,
+   "b_speed_pxs": 151.4,
+   "vulnerable": true,
+   "angle_deg": 44.2,
+   "pairs": [
+    "chiangmai-115-176",
+    "chiangmai-18-115",
+    "chiangmai-115-6",
+    "chiangmai-18-176"
+   ],
+   "clip": "clips/chiangmai-115-176.mp4",
+   "keyframes": [
+    "clips/chiangmai-115-176_k0.jpg",
+    "clips/chiangmai-115-176_k1.jpg",
+    "clips/chiangmai-115-176_k2.jpg"
+   ],
+   "clip_t0": 0.5,
+   "clip_t1": 5.83
+  },
+  {
+   "id": "chiangmai-6-337",
+   "source": "chiangmai",
+   "a": "6",
+   "b": "337",
+   "a_cls": "car",
+   "b_cls": "car",
+   "pet_s": 0.53,
+   "t_a_exit": 6.667,
+   "t_b_enter": 7.2,
+   "cell_xy": [
+    588.0,
+    300.0
+   ],
+   "a_speed_pxs": 65.5,
+   "b_speed_pxs": 90.9,
+   "vulnerable": false,
+   "angle_deg": 70.3,
+   "pairs": [
+    "chiangmai-6-337"
+   ],
+   "clip": "clips/chiangmai-6-337.mp4",
+   "keyframes": [
+    "clips/chiangmai-6-337_k0.jpg",
+    "clips/chiangmai-6-337_k1.jpg",
+    "clips/chiangmai-6-337_k2.jpg"
+   ],
+   "clip_t0": 4.17,
+   "clip_t1": 9.7
+  },
+  {
+   "id": "chiangmai-123-375",
+   "source": "chiangmai",
+   "a": "123",
+   "b": "375",
+   "a_cls": "truck",
+   "b_cls": "car",
+   "pet_s": 2.93,
+   "t_a_exit": 7.6,
+   "t_b_enter": 10.533,
+   "cell_xy": [
+    900.0,
+    348.0
+   ],
+   "a_speed_pxs": 16.5,
+   "b_speed_pxs": 129.2,
+   "vulnerable": false,
+   "angle_deg": 94.1,
+   "pairs": [
+    "chiangmai-123-375"
+   ],
+   "clip": "clips/chiangmai-123-375.mp4",
+   "keyframes": [
+    "clips/chiangmai-123-375_k0.jpg",
+    "clips/chiangmai-123-375_k1.jpg",
+    "clips/chiangmai-123-375_k2.jpg"
+   ],
+   "clip_t0": 5.1,
+   "clip_t1": 13.03
+  },
+  {
+   "id": "chiangmai-145-176",
+   "source": "chiangmai",
+   "a": "145",
+   "b": "176",
+   "a_cls": "person",
+   "b_cls": "motorcycle",
+   "pet_s": 3.47,
+   "t_a_exit": 2.667,
+   "t_b_enter": 6.133,
+   "cell_xy": [
+    60.0,
+    372.0
+   ],
+   "a_speed_pxs": 62.2,
+   "b_speed_pxs": 151.4,
+   "vulnerable": true,
+   "angle_deg": 88.1,
+   "pairs": [
+    "chiangmai-145-176"
+   ],
+   "clip": "clips/chiangmai-145-176.mp4",
+   "keyframes": [
+    "clips/chiangmai-145-176_k0.jpg",
+    "clips/chiangmai-145-176_k1.jpg",
+    "clips/chiangmai-145-176_k2.jpg"
+   ],
+   "clip_t0": 0.17,
+   "clip_t1": 8.17
+  }
+ ]
+}

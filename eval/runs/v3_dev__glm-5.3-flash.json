@@ -1,0 +1,158 @@
+{
+ "chiangmai-145-176": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 111.1
+ },
+ "chiangmai-254-270": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 112.8
+ },
+ "chiangmai-453-472": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 112.7
+ },
+ "pieix-4-269": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 104.4
+ },
+ "chiangmai-58-123": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 112.3
+ },
+ "pieix-2-252": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 112.8
+ },
+ "chiangmai-115-176": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 117.0
+ },
+ "pieix-252-310": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 113.9
+ },
+ "tyumen-prof-157-400": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 120.9
+ },
+ "tyumen-prof-17-10": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 122.8
+ },
+ "tyumen-prof-30-188": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 133.5
+ },
+ "tyumen-prof-397-437": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 116.2
+ },
+ "tyumen-prof-407-732": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 114.2
+ },
+ "tyumen-prof-486-407": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 122.0
+ },
+ "tyumen-prof-5-177": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 123.6
+ },
+ "tyumen-prof-407-717": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 128.5
+ },
+ "tyumen-prof-470-678": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 141.6
+ },
+ "tyumen-prof-65-136": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 137.5
+ },
+ "tyumen-prof-548-647": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 148.1
+ },
+ "tyumen-prof-737-840": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 146.6
+ },
+ "tyumen-prof-875-1174": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 140.0
+ },
+ "tyumen-prof-873-1060": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 163.8
+ },
+ "tyumen-prof-971-772": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 134.8
+ },
+ "tyumen-prof-9-188": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 146.7
+ },
+ "tyumen-vodo-3-36": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 137.3
+ },
+ "tyumen-prof-9-298": {
+  "model": "zai-org/GLM-5.3-Flash",
+  "ok": false,
+  "error": "no JSON: ''",
+  "latency_s": 160.0
+ }
+}
