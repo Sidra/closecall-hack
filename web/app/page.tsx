@@ -26,6 +26,7 @@ export default function Home() {
           <div style={{ display: "flex", gap: 10, marginTop: 22, flexWrap: "wrap" }}>
             <Link className="btn primary" href="/demo">▶ Run the demo</Link>
             <Link className="btn" href="/ledger">Open the ledger</Link>
+            <Link className="btn" href="/play">🎮 Spot the near-miss</Link>
           </div>
           <p className="muted" style={{ marginTop: 18, fontSize: 14.5, maxWidth: 620 }}>
             CloseCall finds possible near-misses in traffic-camera video for an engineer to review: a tracker measures every

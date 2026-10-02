@@ -14,6 +14,7 @@ const LINKS = [
   { href: "/demo", label: "Demo" },
   { href: "/ledger", label: "Ledger" },
   { href: "/evals", label: "Evals" },
+  { href: "/play", label: "Play" },
 ];
 
 export function Nav() {
@@ -33,7 +34,7 @@ export function Nav() {
             <Link key={l.href} href={l.href} aria-current={path === l.href ? "page" : undefined}>{l.label}</Link>
           ))}
         </div>
-        <button className="theme-btn" onClick={flip} aria-label="Toggle colour theme">{theme === "dark" ? "☀ light" : "☾ dark"}</button>
+        <button className="theme-btn" onClick={flip} aria-label="Toggle colour theme">{theme === "dark" ? "☀" : "☾"}<span className="tb-label">{theme === "dark" ? " light" : " dark"}</span></button>
       </div>
     </nav>
   );

@@ -156,3 +156,37 @@ if __name__ == "__main__":
     c = run(split, models)
     for m, r in c.items():
         print(m, sum(v.get("ok", False) for v in r.values()), "/", len(r))
+
+
+def ask_prompt(model: str, prompt: str, image_path: str, keys: tuple[str, ...], retries: int = 4) -> dict:
+    """Same transport as `ask`, for a caller-supplied prompt and boolean keys (Track B)."""
+    ep, mid = MODELS[model]
+    base, key = ENDPOINTS[ep]
+    img = base64.b64encode(open(image_path, "rb").read()).decode()
+    body = {"model": mid, "temperature": 0.1, "max_tokens": 4000, "messages": [{"role": "user", "content": [
+        {"type": "text", "text": prompt}, {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img}"}}]}]}
+    if model in NO_THINK:
+        body["chat_template_kwargs"] = {"enable_thinking": False}
+    t, err = time.time(), ""
+    for attempt in range(retries):
+        try:
+            req = urllib.request.Request(f"{base}/chat/completions", data=json.dumps(body).encode(), headers={
+                "Authorization": f"Bearer {key()}", "Content-Type": "application/json", "User-Agent": "curl/8.7.1"})
+            text = json.load(urllib.request.urlopen(req, timeout=150))["choices"][0]["message"].get("content") or ""
+            m = re.findall(r"\{[^{}]*\"" + keys[0] + r"\"[^{}]*\}", text, re.S)
+            if not m:
+                raise ValueError(f"no JSON: {text[:120]!r}")
+            d = json.loads(m[-1])
+            for k in keys:
+                v = d.get(k)
+                d[k] = v if isinstance(v, bool) else str(v).lower() == "true"
+            return {**d, "model": mid, "ok": True, "latency_s": round(time.time() - t, 1)}
+        except urllib.error.HTTPError as e:
+            err = f"HTTP {e.code}"
+            if e.code in (400, 404, 422):
+                break
+            time.sleep(3 + 3 * attempt)
+        except Exception as e:  # noqa: BLE001
+            err = str(e)[:160]
+            time.sleep(2)
+    return {"model": mid, "ok": False, "error": err}
