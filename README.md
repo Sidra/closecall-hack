@@ -4,6 +4,8 @@
 
 > For a city traffic engineer (or the consultancy running a safety study) who can't prove an intersection is dangerous until someone is hurt, CloseCall creates a reviewed near-miss ledger with clips and a fix memo, so they can make the case for a redesign before the crash.
 
+**Public repo:** https://github.com/Sidra/closecall-hack
+
 ## Services / ports
 
 | Service | Port | Notes |
