@@ -12,6 +12,7 @@ const getTheme = () => document.documentElement.dataset.theme || "dark";
 
 const LINKS = [
   { href: "/demo", label: "Demo" },
+  { href: "/live", label: "Live" },
   { href: "/ledger", label: "Ledger" },
   { href: "/evals", label: "Evals" },
   { href: "/play", label: "Play" },

@@ -15,3 +15,4 @@ share/
 DOSSIER.md
 video/
 eval/human_review.json
+.vercel

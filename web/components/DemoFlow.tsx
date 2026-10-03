@@ -53,7 +53,13 @@ export function DemoFlow({ run, rows, memos, ev, human }: { run: Run; rows: Row[
     try {
       const r = await fetch("/api/memo", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ intersection: memo.intersection }) });
       const d = await r.json();
-      if (d.markdown) { setMemo(d); setMemoNote(d.cached ? `W&B unavailable (${d.fallback_reason}); showing cached memo` : `generated live just now on W&B Inference · ${d.model}`); }
+      if (d.markdown) {
+        const noKey = String(d.fallback_reason ?? "").includes("no W&B key");
+        setMemo(d);
+        setMemoNote(!d.cached ? `generated live just now on W&B Inference · ${d.model}`
+          : noKey ? "public demo: live regeneration runs locally with a W&B key; showing the cached W&B memo"
+          : `W&B unavailable (${d.fallback_reason}); showing the cached memo`);
+      }
     } finally { setBusy(false); }
   };
 
@@ -89,7 +95,7 @@ export function DemoFlow({ run, rows, memos, ev, human }: { run: Run; rows: Row[
         <div>
           <div className="eyebrow">Guided run</div>
           <h2 style={{ marginTop: 10 }}>From footage nobody watched to a filed fix memo.</h2>
-          <p className="muted" style={{ maxWidth: 720 }}>Instant Demo replays the pre-cached pipeline run (every number below was measured on it). Search and memo can also run live.</p>
+          <p className="muted" style={{ maxWidth: 720 }}>Instant Demo replays the pre-cached pipeline run (every number below was measured on it). With API keys set, search and the memo also run live; without them (as on the public demo) search uses keyword matching and the memo is the cached W&amp;B draft.</p>
         </div>
         <div style={{ display: "flex", gap: 8 }}>
           <button className="btn primary" onClick={instant}>⚡ Instant Demo</button>

@@ -10,6 +10,7 @@
 |---|---|---|
 | Web app (Next.js 16) | **3502** | `cd web && pnpm dev`; pages `/`, `/demo`, `/ledger`, `/evals` |
 | API routes | 3502 | `POST /api/search` (NVIDIA embeddings, keyword fallback, identity refusal) · `POST /api/memo` (W&B Inference, cached fallback) |
+| Live worker (FastAPI) | **3503** | `.venv/bin/python -m pipeline.live`: MJPEG `/stream.mjpg`, SSE `/events`, `/start`, `/stop`, `/search`, `/state`; the `/live` page connects to it |
 | Pipeline (Python 3.14) | — | batch CLI: `pipeline.candidates_run`, `pipeline.verify_run`, `pipeline.publish` |
 | Storage | — | `CLOSECALL_STORE=local` (default stand-in: JSON under `web/public/data`) or `vast` (VAST S3 endpoint + VSS ingest) |
 
@@ -46,6 +47,34 @@ Stage 1 alone (report every PET flag): 9% precision. Caveats: only 4 labelled ne
 4. `cd web && pnpm i && pnpm dev`, then open http://localhost:3502/demo.
 
 **No-key practice mode:** the web app runs with no keys at all. Instant Demo replays the cached run, search falls back to keyword matching (shown under the results), and the memo falls back to the cached W&B memo (marked).
+
+## Real-time mode (`/live`, runs locally)
+
+The batch pipeline above is what the evaluation measures. Real-time mode runs the same logic frame by frame:
+
+1. **Source picker:**
+   - **live**: the Caltrans CCTV stream "SR-1 at Capistrano Rd, Half Moon Bay" (HLS), labelled "LIVE camera". Caltrans site content is public domain unless otherwise indicated; frames are pixelated and nothing is archived.
+   - **simulated**: any of the 4 CC clips, replayed at real 1× speed, labelled "simulated live (recorded clip at 1×)".
+2. **Per frame:**
+   - YOLO26 + ByteTrack (Apple-silicon GPU when available).
+   - Post-encroachment time computed incrementally as road users enter cells others just left, with the same physics filter as batch (crossing angle, moving, riders, pedestrian pairs, tracker fragments) and the same clustering (2 s, 6 cells).
+   - An event the moment PET < 4 s.
+   - The frame is pixelated before it is encoded.
+3. **Async triage:** priority events (vulnerable road user, or PET < 1.5 s) go to the same 3-model vote on W&B Inference (parallel calls, Weave-traced); each card updates when its vote returns. Other events show "not voted (low priority)"; when more than 6 votes are in flight, "not voted (queue full)".
+4. **Live search:** a keyword index over events and vote evidence, growing as they arrive.
+
+**Measured on this machine (Apple-silicon laptop):**
+
+| Source | Processed fps | Frame → flag p50 / p95 | Detect + track p50 | Vote p50 / p95 |
+|---|---|---|---|---|
+| Caltrans live (352×240, 15 fps decode) | keeps up, 0 dropped | 8.4 ms / 8.6 ms | 7.5 ms | 12.3 s / 13.1 s |
+| Recorded Tyumen clip at 1× (960×540) | 15.1 | 15.9 ms / 19.4 ms | 14.7 ms | 13.5 s / 14.9 s |
+
+- Latency is counted from the moment a frame reaches this machine. The camera's own HLS delivery delay is not included.
+- Live events are **not evaluated** (no labels); they are flags for review.
+- Event logs are written to `data/work/live/<session>.jsonl` for later labelling.
+
+Run: `.venv/bin/python -m pipeline.live`, then `cd web && pnpm dev`, then open http://localhost:3502/live. The public deployment serves the pre-cached batch demo; `/live` there explains how to run it locally.
 
 ## Sponsor tools (each load-bearing)
 

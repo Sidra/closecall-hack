@@ -4,7 +4,7 @@ import type { Row } from "./types";
 const IDENTITY = /\b(who|whose|driver'?s? name|identify|identity|face|faces|plate|plates|licen[cs]e|number plate|registration|owner|name of)\b/i;
 export const isIdentityQuery = (q: string) => IDENTITY.test(q);
 export const REFUSAL =
-  "CloseCall does not identify people or vehicles. Faces and plates are pixelated before storage and no identity is ever extracted. Ask about what happened instead, e.g. \"turning cars cutting across pedestrians\".";
+  "CloseCall does not identify people or vehicles. Heads and plates are pixelated in tracked boxes, and no identity is ever extracted. Ask about what happened instead, e.g. \"turning cars cutting across pedestrians\".";
 
 export function cosine(a: number[], b: number[]) {
   let dot = 0, na = 0, nb = 0;

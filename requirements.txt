@@ -1,7 +1,9 @@
+fastapi==0.142.2
 lap==0.5.13
 numpy==2.5.3
 opencv-python-headless==5.0.0.93
 python-dotenv==1.2.4
 requests==2.34.2
 ultralytics==8.4.171
+uvicorn==0.54.0
 weave==0.53.11
