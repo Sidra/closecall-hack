@@ -4,7 +4,7 @@
 
 **Demo video (2:56):** https://www.youtube.com/watch?v=SPY16koTWZw
 
-**A flight recorder for intersections.** CloseCall finds possible near-misses in traffic-camera video, has vision models triage each one for an engineer to review, files the clip and a ledger row where they can be searched in plain words, and drafts the fix memo citing the AI-labelled near-miss clips. Faces and plates are pixelated before anything is stored or sent to a model. Heads and plates are pixelated in tracked boxes; untracked people may not be.
+**A flight recorder for intersections.** CloseCall finds possible near-misses in traffic-camera video, has vision models triage each one for an engineer to review, files the clip and a ledger row where they can be searched in plain words, and drafts the fix memo citing the AI-labelled near-miss clips. Heads and plates are pixelated in tracked boxes; untracked people may not be.
 
 > For a city traffic engineer (or the consultancy running a safety study) who can't prove an intersection is dangerous until someone is hurt, CloseCall creates a reviewed near-miss ledger with clips and a fix memo, so they can make the case for a redesign before the crash.
 
